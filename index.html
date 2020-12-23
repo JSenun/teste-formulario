@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="reset.css">
+    <link rel="stylesheet" href="style.css">
+    <title>Document</title>
+</head>
+<body>
+    <div class="formulario">
+        <h1>Cadastrar-se</h1>
+        <form>
+            <label for="form-nome">Nome Completo:</label>
+            <input type="text" name="form-nome" id="form-nome" class="input" required>
+            <div class="input-invalido" id="nome-invalido"></div>
+            <label for="form-email">E-Mail:</label>
+            <input type="email" name="form-email" id="form-email" class="input" placeholder="seuemail@dominio.com" required>
+            <div  class="input-invalido" id="email-invalido"></div>
+            <label for="form-senha1">Senha:</label>
+            <input type="password" nome="form-senha1" id="form-senha1" class="input" required>
+            <div  class="input-invalido" id="senha1-invalida"></div>
+            <label for="form-senha2">Repita a Senha:</label>
+            <input type="password" name="form-senha2" id="form-senha2" class="input" required>
+            <div  class="input-invalido" id="senha2-invalida"></div>
+            <input type="button" value="Efetuar Cadastro" class="button-form" onclick= "validar()">
+        </form>
+        <p>Já possui uma conta? <a href="#">Faça Login</a></p>
+    </div>
+    <div class="banner">
+        <h3>Ame o que faz e seja mais produtivo!</h3>
+        <img class="img-banner" src="images/man-5800290_1280.png" alt="Desenho de um Homem Sentado em Frente do computador">
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>
