@@ -1,4 +1,4 @@
-<h1>Validador de Formulário Simples
+<h1>Validador de Formulário Simples</h1>
 
 
 
